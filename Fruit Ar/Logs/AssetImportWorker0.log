@@ -1,0 +1,440 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16191 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/XneCrystall/Fruit Ar
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62231
+Successfully changed project path to: C:/Users/XneCrystall/Fruit Ar
+C:/Users/XneCrystall/Fruit Ar
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 93.07 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 3.04 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/XneCrystall/Fruit Ar/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6647
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006345 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.07 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.204 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013099 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.233 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 1879.
+Total: 4.058000 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.088700 ms MarkObjects: 3.409600 ms  DeleteObjects: 0.284800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/BananaFix.png
+  artifactKey: Guid(c9dd3d2f1b5d5c84e98fdd9cbaf4ade1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BananaFix.png using Guid(c9dd3d2f1b5d5c84e98fdd9cbaf4ade1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3177953a59b636ee44f2b9d422fcf24') in 0.461373 seconds
+  Import took 0.466525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Banana.blend
+  artifactKey: Guid(8b1a6c17ea7e0174a93e81ff9501fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banana.blend using Guid(8b1a6c17ea7e0174a93e81ff9501fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09586f6a76daf970c93c911a80a65dbd') in 0.432481 seconds
+  Import took 0.437856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.703204 seconds.
+  path: Assets/Banana.blend
+  artifactKey: Guid(8b1a6c17ea7e0174a93e81ff9501fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banana.blend using Guid(8b1a6c17ea7e0174a93e81ff9501fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd2975b03455eba4486a2ca79a50ea6') in 0.179711 seconds
+  Import took 0.185340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 645.923726 seconds.
+  path: Assets/BananaImage.jpg
+  artifactKey: Guid(ebb1b8cff574677408b3b7afc2c714a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BananaImage.jpg using Guid(ebb1b8cff574677408b3b7afc2c714a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b5617e52efa6a493965b54c2258cdc') in 0.069896 seconds
+  Import took 0.076398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/BananaImage.png
+  artifactKey: Guid(8aa81d06adf6cc94793a6baaf354d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BananaImage.png using Guid(8aa81d06adf6cc94793a6baaf354d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bd8c7c00da919178e17decbc6c9a80') in 0.124730 seconds
+  Import took 0.130873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/BananaImage.jpg
+  artifactKey: Guid(ebb1b8cff574677408b3b7afc2c714a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BananaImage.jpg using Guid(ebb1b8cff574677408b3b7afc2c714a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b5617e52efa6a493965b54c2258cdc') in 0.039789 seconds
+  Import took 0.046758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038336 seconds.
+  path: Assets/BananaImage.png
+  artifactKey: Guid(8aa81d06adf6cc94793a6baaf354d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BananaImage.png using Guid(8aa81d06adf6cc94793a6baaf354d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bd8c7c00da919178e17decbc6c9a80') in 0.085892 seconds
+  Import took 0.091215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.437174 seconds.
+  path: Assets/Materials/Play 1.mat
+  artifactKey: Guid(9d159e2cd566fb74f962bb2bc6a17a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Play 1.mat using Guid(9d159e2cd566fb74f962bb2bc6a17a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb51a386c3d0375f6509f00a813c313') in 0.061331 seconds
+  Import took 0.065794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Materials/Play.mat
+  artifactKey: Guid(15e4033f184e0e048ac1bcbab93981d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Play.mat using Guid(15e4033f184e0e048ac1bcbab93981d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5596c12a34839fbde31d51e8c1ec5185') in 0.043999 seconds
+  Import took 0.048889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.118941 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/AppleMarker_scaled.jpg
+  artifactKey: Guid(7ae5f5af426a4f1092b763ebd1e2a7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/AppleMarker_scaled.jpg using Guid(7ae5f5af426a4f1092b763ebd1e2a7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bfce25f3002cd1d9d7c7f273d595ba') in 0.031517 seconds
+  Import took 0.035847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/BananaImage_scaled.jpg
+  artifactKey: Guid(2528e87b295747829f1b35667a2a4386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/BananaImage_scaled.jpg using Guid(2528e87b295747829f1b35667a2a4386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496378ef395bcbdb03f399ca5e6443dd') in 0.027986 seconds
+  Import took 0.032634 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 26.90 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 5.035100 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.069200 ms MarkObjects: 4.523300 ms  DeleteObjects: 0.166300 ms)
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 23.44 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 5.453100 ms (FindLiveObjects: 0.316800 ms CreateObjectMapping: 0.076800 ms MarkObjects: 4.885000 ms  DeleteObjects: 0.171400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1744.727169 seconds.
+  path: Assets/Apple.jpg
+  artifactKey: Guid(6aaba450b772ae24bb3d02e077f45131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple.jpg using Guid(6aaba450b772ae24bb3d02e077f45131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96936e5f77daa05aeaa3413ad91f1d1') in 0.067097 seconds
+  Import took 0.072942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Banana.jpg
+  artifactKey: Guid(f5d4631b607d6af47b8d704f215a03fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banana.jpg using Guid(f5d4631b607d6af47b8d704f215a03fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1782b2f708bdcd08ddb149daef891d4f') in 0.027239 seconds
+  Import took 0.032109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.947406 seconds.
+  path: Assets/Banana.jpg
+  artifactKey: Guid(f5d4631b607d6af47b8d704f215a03fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banana.jpg using Guid(f5d4631b607d6af47b8d704f215a03fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333cfe3e5b65122dfd1ca83b41a3eec5') in 0.031053 seconds
+  Import took 0.035818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.785065 seconds.
+  path: Assets/Apple.jpg
+  artifactKey: Guid(6aaba450b772ae24bb3d02e077f45131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apple.jpg using Guid(6aaba450b772ae24bb3d02e077f45131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92302a3af7c65678835aa222d7abd1fb') in 0.050018 seconds
+  Import took 0.058066 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 25.03 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 5.323400 ms (FindLiveObjects: 0.281200 ms CreateObjectMapping: 0.071800 ms MarkObjects: 4.797300 ms  DeleteObjects: 0.170400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 519.687545 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Apple_scaled.jpg
+  artifactKey: Guid(2c783845948248858727475877f01a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Apple_scaled.jpg using Guid(2c783845948248858727475877f01a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7a8ae2887afa045120f9cf18b9c491') in 0.030211 seconds
+  Import took 0.035118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg
+  artifactKey: Guid(d0964e2ecc924d68a6525139d5d7808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg using Guid(d0964e2ecc924d68a6525139d5d7808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9efdc0e89bb8aa8df44cb5d6cf9c32') in 0.023986 seconds
+  Import took 0.028357 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 24.28 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 4.785100 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.069000 ms MarkObjects: 4.262700 ms  DeleteObjects: 0.168800 ms)
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 39.62 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.4 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 7.809400 ms (FindLiveObjects: 0.449500 ms CreateObjectMapping: 0.197300 ms MarkObjects: 6.908900 ms  DeleteObjects: 0.249400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1479.602718 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Apple_scaled.jpg
+  artifactKey: Guid(522ba8a1829f41a6bf4f83f8fab43022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Apple_scaled.jpg using Guid(522ba8a1829f41a6bf4f83f8fab43022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbe8c83f51cc2be0f196d655ccbb1f8') in 0.058950 seconds
+  Import took 0.064597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/BananaImage_scaled.jpg
+  artifactKey: Guid(57722d2ec7d04c829b29435730e96a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/BananaImage_scaled.jpg using Guid(57722d2ec7d04c829b29435730e96a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130b25c508706e2334e5dac8fd1360ba') in 0.041920 seconds
+  Import took 0.046623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg
+  artifactKey: Guid(f8c1cd66595c4df4aa42c3879eee0bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg using Guid(f8c1cd66595c4df4aa42c3879eee0bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328271ee16c1c7956661c1f957f2f3cf') in 0.027817 seconds
+  Import took 0.032309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/AppleMarker_scaled.jpg
+  artifactKey: Guid(0c406a7f3df144a197978914bdb9f666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/AppleMarker_scaled.jpg using Guid(0c406a7f3df144a197978914bdb9f666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd704db61af53966e965af598e00117d0') in 0.032663 seconds
+  Import took 0.036998 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 24.70 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 5.681700 ms (FindLiveObjects: 0.285700 ms CreateObjectMapping: 0.071200 ms MarkObjects: 5.118700 ms  DeleteObjects: 0.202700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 521.586319 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg
+  artifactKey: Guid(03818dfda6314fc2bf45a6e8f2a50abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg using Guid(03818dfda6314fc2bf45a6e8f2a50abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f59c5e0671f0ccfebac6de82a0effc') in 0.029270 seconds
+  Import took 0.034868 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 28.47 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 5.526800 ms (FindLiveObjects: 0.293600 ms CreateObjectMapping: 0.070800 ms MarkObjects: 4.989400 ms  DeleteObjects: 0.170200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 553.867641 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/AppleMarker_scaled.jpg
+  artifactKey: Guid(a273d3c7a6814cd499655ac0ba204184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/AppleMarker_scaled.jpg using Guid(a273d3c7a6814cd499655ac0ba204184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c53032c10e78b76a2a37996c712da2f') in 0.030665 seconds
+  Import took 0.037001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/BananaImage_scaled.jpg
+  artifactKey: Guid(5b1dd1b873da44c0ab7ee0736705ef12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/BananaImage_scaled.jpg using Guid(5b1dd1b873da44c0ab7ee0736705ef12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b91d7d2c9476ffd74960da250609e6') in 0.028515 seconds
+  Import took 0.033505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/AppleMarker_scaled.jpg
+  artifactKey: Guid(a273d3c7a6814cd499655ac0ba204184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/AppleMarker_scaled.jpg using Guid(a273d3c7a6814cd499655ac0ba204184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c53032c10e78b76a2a37996c712da2f') in 0.018785 seconds
+  Import took 0.024117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042478 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/BananaImage_scaled.jpg
+  artifactKey: Guid(5b1dd1b873da44c0ab7ee0736705ef12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/BananaImage_scaled.jpg using Guid(5b1dd1b873da44c0ab7ee0736705ef12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b91d7d2c9476ffd74960da250609e6') in 0.019675 seconds
+  Import took 0.025213 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 23.66 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 5.544400 ms (FindLiveObjects: 0.298900 ms CreateObjectMapping: 0.079300 ms MarkObjects: 4.977800 ms  DeleteObjects: 0.185800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1947.049503 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Apple_scaled.jpg
+  artifactKey: Guid(de6ead3d15ed4482a6a3454a14091dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Apple_scaled.jpg using Guid(de6ead3d15ed4482a6a3454a14091dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b0a7332f44038c405efc3f819a5a21') in 0.079710 seconds
+  Import took 0.085910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg
+  artifactKey: Guid(1500a0e0ce8f4d058c89df7617c4f28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg using Guid(1500a0e0ce8f4d058c89df7617c4f28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531c291341e323e4c44ee33f29a84157') in 0.048152 seconds
+  Import took 0.053933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002993 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg
+  artifactKey: Guid(1500a0e0ce8f4d058c89df7617c4f28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/ArDatabase/Banana_scaled.jpg using Guid(1500a0e0ce8f4d058c89df7617c4f28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531c291341e323e4c44ee33f29a84157') in 0.020411 seconds
+  Import took 0.025650 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 27.66 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 6.782000 ms (FindLiveObjects: 0.371000 ms CreateObjectMapping: 0.098200 ms MarkObjects: 6.127900 ms  DeleteObjects: 0.181600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
